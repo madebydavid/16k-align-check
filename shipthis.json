@@ -1,0 +1,32 @@
+{
+  "ignoredFilesGlobs": [
+    ".git",
+    ".gitignore",
+    "shipthis.json",
+    "shipthis-*.zip",
+    ".godot/**",
+    ".nomedia",
+    ".import/**",
+    "export.cfg",
+    "export_credentials.cfg",
+    "*.translation",
+    ".mono/**",
+    "data_*/**",
+    "mono_crash.*.json"
+  ],
+  "project": {
+    "id": "eefe2e88-ba3c-4091-81b8-469eb367f971",
+    "name": "16kTest4.5",
+    "details": {
+      "gameEngine": "godot",
+      "buildNumber": 3,
+      "gameEngineVersion": "4.0",
+      "androidPackageName": "com.sixteenkb.page.test.four"
+    },
+    "createdAt": "2025-10-27T17:14:08.114+00:00",
+    "updatedAt": "2025-10-31T10:42:32.350+00:00"
+  },
+  "shippedFilesGlobs": [
+    "**/*"
+  ]
+}
