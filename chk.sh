@@ -47,9 +47,9 @@ if [[ "${dir}" == *.apk ]]; then
   echo "Recursively analyzing $dir"
   echo
 
-  if { zipalign --help 2>&1 | grep -q "\-P <pagesize_kb>"; }; then
+  if { /home/ubuntu/android-sdk/./build-tools/35.0.0-rc3/zipalign --help 2>&1 | grep -q "\-P <pagesize_kb>"; }; then
     echo "=== APK zip-alignment ==="
-    zipalign -v -c -P 16 4 "${dir}" | egrep 'lib/arm64-v8a|lib/x86_64|Verification'
+    /home/ubuntu/android-sdk/./build-tools/35.0.0-rc3/zipalign -v -c -P 16 4 "${dir}" | egrep 'lib/arm64-v8a|lib/x86_64|Verification'
     echo "========================="
   else
     echo "NOTICE: Zip alignment check requires build-tools version 35.0.0-rc3 or higher."

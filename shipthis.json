@@ -1,5 +1,6 @@
 {
   "ignoredFilesGlobs": [
+    "*.apk",
     ".git",
     ".gitignore",
     "shipthis.json",
@@ -19,12 +20,12 @@
     "name": "16kTest4.5",
     "details": {
       "gameEngine": "godot",
-      "buildNumber": 3,
-      "gameEngineVersion": "4.0",
+      "buildNumber": 12,
+      "gameEngineVersion": "4.2",
       "androidPackageName": "com.sixteenkb.page.test.four"
     },
     "createdAt": "2025-10-27T17:14:08.114+00:00",
-    "updatedAt": "2025-10-31T10:42:32.350+00:00"
+    "updatedAt": "2025-11-01T21:54:35.785+00:00"
   },
   "shippedFilesGlobs": [
     "**/*"
